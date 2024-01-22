@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import * as $ from 'jquery'
 
 @Injectable({
   providedIn: 'root'
@@ -87,7 +88,7 @@ export class DialogService {
 
     function _mostrarToast() {
       $('#__Toast .toast-body').text(mensaje);  
-      $('#__Toast').toast('show');  
+      $('#__Toast').toast('show');
     }
   }
 
