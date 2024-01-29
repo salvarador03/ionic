@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-/*import { PeliculasRoutingModule } from './peliculas-routing.module';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AbecedarioComponent } from '../peliculas/pages/abecedario/abecedario.component';
@@ -27,9 +26,7 @@ import { PaginadorNumericoComponent } from './components/paginador-numerico/pagi
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    PeliculasRoutingModule,
     SharedModule
-  ]
+  ],
 })
 export class PeliculasModule { }
-*/

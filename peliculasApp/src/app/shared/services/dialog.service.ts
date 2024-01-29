@@ -31,7 +31,7 @@ export class DialogService {
       $('#modalAlert .modal-title').text(titulo);
       $('#modalAlert .modal-body').text(mensaje);
 
-      $('#modalAlert').modal('show');  
+      $('#modalAlert')['modal']('show');  
     }
   }
 
@@ -63,10 +63,11 @@ export class DialogService {
         $('#modalConfirmar #botonAceptar').off('click');
       
         // Oculto el modal
-        $('#modalConfirmar').modal('hide');    
+        // Oculto el modal
+        $('#modalConfirmar')['modal']('hide');    
       });
 
-      $('#modalConfirmar').modal('show');  
+      $('#modalConfirmar')['modal']('show');  
     }
   }
 
@@ -88,7 +89,7 @@ export class DialogService {
 
     function _mostrarToast() {
       $('#__Toast .toast-body').text(mensaje);  
-      $('#__Toast').toast('show');
+      $('#__Toast')['toast']('show');
     }
   }
 

@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 // TODO : CORREGIR LO COMENTADO
@@ -20,7 +18,6 @@ import { CarteleraPeliculasComponent } from './components/cartelera-peliculas/ca
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
   ]
 })
 export class DashboardModule { }
